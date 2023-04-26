@@ -9,15 +9,27 @@ display: flex;
 justify-content: space-between;
 margin-left: 20%;
 margin-right: 20%;
+margin-bottom: 5%;
 }
 .trusted{
-    margin-right: 50%;
-    display:flex;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 20%;
+
 
 }
-
+.trusted .get{
+    padding: 1%;
+    border-radius: 10%;
+    border: none;
+    background-color: rgb(143, 187, 77);
+}
+.thead{
+    margin-left:0% ;
+   
+}
     button{
-        margin:32px 64px;
+        /* margin:32px 64px;
         padding: 25px 96px;
         font-size: larger;
         font-weight: bold;
@@ -25,11 +37,12 @@ margin-right: 20%;
         /* border-style: none;
         border:2px solid red ; */
         /* border-radius: ; */
-        border-radius: 30px;}
+        border-radius: 30px;} */
 
-    .body{
-        background-color: blueviolet  ;
-        background-image:url() ;
+    body{
+        background-color: black;
+        color: white;
+       
     }
     .table{
         width: 800px;
@@ -38,10 +51,33 @@ margin-right: 20%;
         margin: 36px auto;
         font-weight: 700;
         display: grid;
-        justify-content: space-between;
+        justify-content: space-between 20%;
 
     }
+
     td,
     th{
       border: 1px;
+    }
+    .clarity{
+display: flex;
+justify-content: space-between;
+margin-left: 60%;
+    }
+    .confidence{
+display: flex;
+justify-content: space-between;
+margin-left: 60%;
+    }
+    .community{
+display: flex;
+justify-content: space-between;
+margin-left: 60%;
+    }
+.pay{
+display: flex;
+justify-content: space-between;
+margin-left: 0;
+margin-bottom: 10%;
+padding: 10%;
     }
